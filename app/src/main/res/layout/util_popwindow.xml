@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333">
+
+    <LinearLayout
+        android:id="@+id/pop_window_help"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/title_button_help"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="帮助"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000"/>
+    <LinearLayout
+        android:id="@+id/pop_window_get"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@mipmap/title_button_refresh_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="获取验证信息"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</LinearLayout>

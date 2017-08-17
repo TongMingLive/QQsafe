@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/left_item_btn"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/nav_item_img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/passwordicon" />
+
+    <TextView
+        android:id="@+id/nav_item_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="启动密码"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nav_item_right_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="right"
+        android:text="未开启"
+        android:textColor="#A2A3A3"
+        android:textSize="17sp" />
+</LinearLayout>

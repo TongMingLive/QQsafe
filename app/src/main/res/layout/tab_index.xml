@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/index_jianbian"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/qq_white_normal_user_safe" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="您的账号暂无风险"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/index_my_account"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@mipmap/my_account_login" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="我的足迹"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="当前0处登录，暂时没有登录信息"
+                        android:textColor="#888"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:padding="16dp"
+                    android:src="@mipmap/utils_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/index_mb_sub"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@mipmap/mb_sub_set_mb" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="我的密保"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="已设置密保，成功升级到第三代密保"
+                        android:textColor="#888"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:padding="16dp"
+                    android:src="@mipmap/utils_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/index_my_password"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@mipmap/my_password" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="我的密码"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="密码安全系数较高，请继续保持"
+                        android:textColor="#888"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:padding="16dp"
+                    android:src="@mipmap/utils_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/index_protec_sub"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@mipmap/protec_sub_title" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="我的保护"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="设置的账号保护都在这里"
+                        android:textColor="#888"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:padding="16dp"
+                    android:src="@mipmap/utils_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

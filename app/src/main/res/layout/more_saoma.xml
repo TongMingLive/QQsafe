@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#247fed">
+
+    <include
+        android:id="@id/top_bar"
+        layout="@layout/public_top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/qr_code"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="担心二维码不安全？"
+            android:textColor="#FFF"
+            android:textSize="17sp"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫一扫可立即识别风险"
+            android:textSize="14sp"
+            android:textColor="#EEE"/>
+        <Button
+            android:id="@+id/more_saoma_btn"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:text="开始扫描"
+            android:textSize="18sp"
+            android:background="@drawable/saoma_background"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+</LinearLayout>

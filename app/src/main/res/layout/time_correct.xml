@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/public_top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#f4f4f4"
+            android:text="QQ安全中心时间与北京时区时间的误差超过2分钟时无法使用"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DfDfDf" />
+
+        <TextView
+            android:id="@+id/time_years"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="2016年12月11日"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DfDfDf" />
+
+        <TextView
+            android:id="@+id/time_hoer"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="09:35"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DfDfDf" />
+
+        <Button
+            android:id="@+id/time_correct_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/blue_btn"
+            android:text="自动校准"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

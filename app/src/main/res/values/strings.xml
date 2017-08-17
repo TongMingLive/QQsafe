@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QQ安全中心</string>
+    <drawable name="nav_normal">#292d41</drawable>
+    <drawable name="nav_pressed">#445</drawable>
+    <drawable name="time_correct_normal">#247fed</drawable>
+    <drawable name="time_correct_pressed">#105fff</drawable>
+</resources>

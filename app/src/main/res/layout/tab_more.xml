@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:src="@mipmap/renlian_logo"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:id="@+id/more_saoma"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/qrcodeicon"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="二维码安全检测"
+            android:gravity="center_vertical"
+            android:textColor="#333"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:src="@mipmap/utils_arrow" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DfDfDf" />
+    <LinearLayout
+        android:id="@+id/more_qqselect"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/queryqqicon"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="诈骗QQ查询"
+            android:gravity="center_vertical"
+            android:textColor="#333"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:src="@mipmap/utils_arrow" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DfDfDf" />
+    <LinearLayout
+        android:id="@+id/more_jiance"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wifichecked"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="WIFI检测"
+            android:gravity="center_vertical"
+            android:textColor="#333"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:src="@mipmap/utils_arrow" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DfDfDf" />
+    <View
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DfDfDf" />
+    <LinearLayout
+        android:id="@+id/more_toutiao"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/safenewsicon"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="安全头条"
+            android:gravity="center_vertical"
+            android:textColor="#333"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:src="@mipmap/utils_arrow" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DfDfDf" />
+    <LinearLayout
+        android:id="@+id/more_huodong"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hotpromoteicon"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="热门活动"
+            android:gravity="center_vertical"
+            android:textColor="#333"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="分享送好礼"/>
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:src="@mipmap/utils_arrow" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DfDfDf" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+     >
+
+    <include
+        android:id="@id/top_bar"
+        layout="@layout/public_top_bar" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ou_more_jiance_rel"
+        android:background="#247fed"
+        android:layout_below="@+id/top_bar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wifi_connect_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未连接任何wifi"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请在系统设置中查看是否已开启连接"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/top_bar">
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            >
+        </ListView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

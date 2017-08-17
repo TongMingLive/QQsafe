@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE">
+    <include
+        android:id="@id/top_bar"
+        layout="@layout/public_top_bar"/>
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEE">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_alignParentBottom="true"
+                android:src="@mipmap/icon_recover_friends"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="账号被盗，好友被删除？在这里可以一键批量恢复"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="支持恢复一个月删除的好友"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/util_friends_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="立即开始"
+            android:textColor="#2BA8FF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/blueframe_btn"/>
+
+    </LinearLayout>
+</LinearLayout>
